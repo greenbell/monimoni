@@ -26,7 +26,7 @@ Alive monitoring endpoint will be mounted at `/monimoni/alive` and you can hit i
 You'll get json response:
 
 ```json
-{'hostname': 'foo'}
+{"hostname": "foo"}
 ```
 
 if all of your system stack is working properly.
