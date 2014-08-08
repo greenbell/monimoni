@@ -1,5 +1,5 @@
 module Monimoni
-  class MainController < ApplicationController
+  class MainController < Monimoni::ApplicationController
     def alive
       begin
         Monimoni::Model.find(1)
